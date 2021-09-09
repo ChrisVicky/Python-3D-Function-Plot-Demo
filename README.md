@@ -11,10 +11,11 @@ The inital idea came from Vicky, who once asked me How it looks like the functio
 
 Well, I hadn't had much memory about that since I'd already finished my Calculus Classes. So, I relied her with this Programme.
 ## Intuitions
-Look at the function z = y^2 / x and think about other possible functions we might need in the future. It can be hard to pre-set all kinds of functions (or combinations of x, y and z). So, here I came up with the idea of viewing the function as z equals to a 2-variable-function f(x,y), meaning that by calculating all z value deciding by a set (x, y), we get the proximate graph of the function. 
+>Look at the function z = y^2 / x and think about other possible functions we might need in the future. It can be hard to pre-set all kinds of functions (or combinations of x, y and z). So, here I came up with the idea of viewing the function as z equals to a 2-variable-function f(x,y), meaning that by calculating all z value deciding by a set (x, y), we get the proximate graph of the function. 
 
-To deal with the function f(x,y), we think of it as an expressions. Then, by using the regular expression method, we are able to cut the expression into tokens, each representing a number, an operator or variables (x or y).
+>To deal with the function f(x,y), we think of it as an expressions. Then, by using the regular expression method, we are able to cut the expression into tokens, each representing a number, an operator or variables (x or y).
 Till now, a last problem ahead is to process it much faster and easier. This is when it suddenly occurs to me that Numpy, a tool for matrix processing is perfect for it. 
 
 Coding while checking the reference doc, it took me half day to complete this half-finished-but-useful-python-based-3D-function-Graphing tool.
+
 Hope you enjoy.
