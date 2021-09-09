@@ -3,9 +3,10 @@
 * Based on Python
 * Easy to use
 ## USAGE
+* `pip install -r requirememts.txt` to install dependency.
 * Key in the function f(x, y) to form a function z=f(x, y), then Press enter.
-* End the programme by pressing "Ctrl + c"
-* To save the figure or Editing length or so, feel free to edit the source code.
+* End the programme by pressing "Ctrl + c".
+* To save the figure or Editing axis or so, feel free to edit the source code.
 ## Ideas
 >The inital idea came from Vicky, who once asked me How it looks like the function "z=y^2/x".
 
