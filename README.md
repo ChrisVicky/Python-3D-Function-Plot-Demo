@@ -29,13 +29,13 @@ $$
 z=x^2+y^2
 $$
 
-!['z=x^2+y^2'](README.assets/Screenshot from 2021-09-11 00-31-37.png)
+!['z=x^2+y^2'](https://gitee.com/christopher-vi/a-3-d-function-graphing_-based-on-python/raw/master/README.assets/Screenshot%20from%202021-09-11%2000-31-37.png)
 
 ### sample 2
 $$
 z=x^2
 $$
-!['z=x^2'](README.assets/Screenshot from 2021-09-11 00-31-22.png)
+!['z=x^2'](https://gitee.com/christopher-vi/a-3-d-function-graphing_-based-on-python/raw/master/README.assets/Screenshot%20from%202021-09-11%2000-31-22.png)
 
 ### sample 3
 
@@ -43,5 +43,5 @@ $$
 z=x
 $$
 
-!['z=x'](README.assets/Screenshot from 2021-09-11 00-31-07.png)
+!['z=x'](https://gitee.com/christopher-vi/a-3-d-function-graphing_-based-on-python/raw/master/README.assets/Screenshot%20from%202021-09-11%2000-31-07.png)
 
