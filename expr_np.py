@@ -1,3 +1,4 @@
+from os import EX_CANTCREAT
 import re
 from enum import Enum, unique
 import numpy as np
@@ -37,8 +38,10 @@ def Error(str):
 
 
 def Success(str):
-    print(f"\33[1;33m{str}\33[0m")
+    print(f"\33[1;34m{str}\33[0m")
 
+def War(str):
+    print(f"\33[1;33m{str}\33[0m")
 
 def Log(str):
     print(f"\33[1;34m{str}\33[0m")
@@ -116,6 +119,7 @@ def make_tokens(target):
 
 exe_flag = True
 INF = 0xffffffff
+EXPE_ = 0.000001
 
 def is_sign(temp):
     return temp in sign
@@ -128,9 +132,9 @@ def case_y(str, x,y):
 
 def case_NUM(str, invalidx,invalidy):
     temp = int(str)
-    temp_matrix = np.matlib.zeros(invalidx.shape)
+    temp_matrix = np.zeros(invalidx.shape)
     temp_matrix += temp
-    Success(f"array = {temp_matrix}, array_size={temp_matrix.shape}")
+    # Success(f"array = {temp_matrix}, array_size={temp_matrix.shape}")
     return temp_matrix
 
 def default(str, invalidx, inalidy):
@@ -156,7 +160,6 @@ def case_times(val1, val2):
 
 def case_divide(val1, val2):
     return np.divide(val1, val2, out=np.zeros_like(val1), where=val2!=0)
-    return val1 / val2
 
 def case_power(val1, val2):
     return np.power(val1, val2)
@@ -262,3 +265,23 @@ def DO(str, x, y):
 #    Success(f"ans={ans}")
     return ans, True, name
 
+
+'''    
+def case_divide(val1, val2):
+    r_cnt = 0
+    for row in val2:
+        c_cnt = 0
+        cut_cnt = 0
+        for c in row:
+            if abs(c)<abs(EXPE_):
+                cut_cnt += 1
+            c_cnt += 1
+        if cut_cnt > c_cnt/2:
+            val1 = np.delete(val1, r_cnt, 0)
+            val2 = np.delete(val2, r_cnt, 0)
+        r_cnt += 1
+
+    Success(str(val2.size))
+    return np.divide(val1, val2, out=np.zeros_like(val1), where=val2!=0)
+    return val1 / val2
+'''

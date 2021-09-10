@@ -3,11 +3,11 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import expr_np
 
-X_L = -2
-X_R = 2
+X_L = -4
+X_R = 4
 X_STEP = 0.25
-Y_L = -2
-Y_R = 2
+Y_L = -4
+Y_R = 4
 Y_STEP = 0.25
 
 while(1):
@@ -16,6 +16,7 @@ while(1):
     X, Y = np.meshgrid(X, Y)
     func = ""
     while(func==""):
+        expr_np.War("Note that 'inf' can hardly be presented")
         func = input("\33[1;35mInput a Function:\33[0m\n\33[1;32mz=")
     Z, flag, name = expr_np.DO(func, X, Y)
     if(flag==False):
@@ -35,8 +36,8 @@ while(1):
     ax.set_label(name)
     path = "./figure/" + name.replace("/", " divide ") + ".png"
   #   plt.savefig(path)
-    expr_np.Success(f"picture saved to {path}")
-    expr_np.Success("")
+  #  expr_np.Success(f"picture saved to {path}")
+  #  expr_np.Success("")
 
     plt.show()
     plt.close('all')
