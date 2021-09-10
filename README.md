@@ -21,3 +21,27 @@
 >Coding while checking the reference doc, it took me half day to complete this half-finished-but-useful-python-based-3D-function-Graphing tool.
 
 >Hope you enjoy.
+
+## SAMPLE
+
+### sample 1
+$$
+z=x^2+y^2
+$$
+
+!['z=x^2+y^2'](README.assets/Screenshot from 2021-09-11 00-31-37.png)
+
+### sample 2
+$$
+z=x^2
+$$
+!['z=x^2'](README.assets/Screenshot from 2021-09-11 00-31-22.png)
+
+### sample 3
+
+$$
+z=x
+$$
+
+!['z=x'](README.assets/Screenshot from 2021-09-11 00-31-07.png)
+
