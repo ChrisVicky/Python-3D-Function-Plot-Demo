@@ -37,6 +37,7 @@ $$
 $$
 z=x^2
 $$
+
 !['z=x^2'](img/Screenshot%20from%202021-09-11%2000-31-22.png)
 
 ### sample 3
