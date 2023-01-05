@@ -5,6 +5,7 @@
 ## USAGE
 * Python Version: "3.7"
 * `pip install -r requirememts.txt` to install dependency.
+* `python graph.py` 
 * Key in the function f(x, y) to form a function z=f(x, y), then Press enter.
 * End the programme by pressing "Ctrl + c".
 * To save the figure or Editing axis or so, edit the source code directly.
