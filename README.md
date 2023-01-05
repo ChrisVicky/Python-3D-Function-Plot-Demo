@@ -1,5 +1,5 @@
-# 3D Function Graphing
-> Christopher TJU
+# Function Graphing Demo
+> Christopher 
 * Based on Python
 * Easy to use
 ## USAGE
